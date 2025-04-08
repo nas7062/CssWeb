@@ -111,6 +111,7 @@ hr {
   .search-section {
     width: 50px;
   }
+  
 }
 
 @media (max-width: 600px) {
@@ -118,7 +119,6 @@ hr {
     flex-direction: column;
     border-radius: 1rem;
     max-width: 300px;
-   
   }
   .search-section {
     border-right: none;
@@ -135,7 +135,9 @@ hr {
   }
   .box {
     min-width: 350px;
-   
+  }
+  .menu > span {
+    display: none;
   }
 }
 
