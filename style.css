@@ -139,6 +139,10 @@ hr {
   .menu > span {
     display: none;
   }
+  .footer-three {
+    position: relative;
+    left:-80px;
+  }
 }
 
 nav  ul {
